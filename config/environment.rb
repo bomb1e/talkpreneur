@@ -2,7 +2,7 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
-Talkpreneur::Application.initialize!
+Rails.application.initialize!
 ActionMailer::Base.smtp_settings = {
 	:address => 'smtp.sendgrid.net',
 	:port => '587',
