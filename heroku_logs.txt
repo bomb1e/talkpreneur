@@ -1,0 +1,109 @@
+2015-11-11T08:33:18.894360+00:00 app[web.1]: Completed 500 Internal Server Error in 277ms (ActiveRecord: 4.6ms)
+2015-11-11T08:33:18.895860+00:00 app[web.1]: Net::SMTPFatalError (550 Unauthenticated senders not allowed
+2015-11-11T08:51:31.014729+00:00 app[web.1]: Completed 500 Internal Server Error in 34ms (ActiveRecord: 3.5ms)
+2015-11-11T08:51:31.015725+00:00 app[web.1]: Net::SMTPFatalError (550 Unauthenticated senders not allowed
+2015-11-11T08:53:57.264588+00:00 app[web.1]: Completed 500 Internal Server Error in 36ms (ActiveRecord: 3.7ms)
+2015-11-11T08:53:57.265713+00:00 app[web.1]: Net::SMTPFatalError (550 Unauthenticated senders not allowed
+2015-11-11T08:54:13.251031+00:00 app[web.1]: Completed 500 Internal Server Error in 28ms (ActiveRecord: 3.2ms)
+2015-11-11T08:54:13.252091+00:00 app[web.1]: Net::SMTPFatalError (550 Unauthenticated senders not allowed
+2015-11-11T08:53:57.265713+00:00 app[web.1]: Net::SMTPFatalError (550 Unauthenticated senders not allowed
+2015-11-11T08:53:57.265714+00:00 app[web.1]: ):
+2015-11-11T08:53:57.265714+00:00 app[web.1]:   app/controllers/contacts_controller.rb:18:in `create'
+2015-11-11T08:53:57.265715+00:00 app[web.1]: 
+2015-11-11T08:53:57.265716+00:00 app[web.1]: 
+2015-11-11T08:54:00.895376+00:00 heroku[router]: at=info method=GET path="/contacts/new" host=desolate-headland-7257.herokuapp.com request_id=34269a7d-fc33-4bc9-9d6c-4cb87671ba9e fwd="41.207.252.122" dyno=web.1 connect=1ms service=13ms status=200 bytes=3257
+2015-11-11T08:54:00.888672+00:00 app[web.1]: Started GET "/contacts/new" for 41.207.252.122 at 2015-11-11 08:54:00 +0000
+2015-11-11T08:54:00.894878+00:00 app[web.1]:   Rendered contacts/new.html.erb within layouts/application (2.3ms)
+2015-11-11T08:54:00.891302+00:00 app[web.1]: Processing by ContactsController#new as HTML
+2015-11-11T08:54:00.895776+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+2015-11-11T08:54:01.125344+00:00 heroku[router]: at=info method=GET path="/assets/application-0260e9c370cbb8e1b48b50892ff785ca.css" host=desolate-headland-7257.herokuapp.com request_id=472d22d8-81e2-4641-8c49-46647e65c332 fwd="41.207.252.122" dyno=web.1 connect=1ms service=6ms status=304 bytes=133
+2015-11-11T08:54:01.306236+00:00 heroku[router]: at=info method=GET path="/assets/application-11dc8d7b90406ab32d569db99da2269a.js" host=desolate-headland-7257.herokuapp.com request_id=4621cb54-425b-45b5-9b3d-ca4d2633431f fwd="41.66.216.162" dyno=web.1 connect=1ms service=7ms status=304 bytes=133
+2015-11-11T08:54:04.365657+00:00 heroku[router]: at=info method=GET path="/contacts/new" host=desolate-headland-7257.herokuapp.com request_id=65d98306-8b35-43c3-aed8-3c0ff8152cc3 fwd="41.207.252.122" dyno=web.1 connect=2ms service=22ms status=200 bytes=3257
+2015-11-11T08:54:04.349214+00:00 app[web.1]: Started GET "/contacts/new" for 41.207.252.122 at 2015-11-11 08:54:04 +0000
+2015-11-11T08:54:04.355299+00:00 app[web.1]:   Rendered contacts/new.html.erb within layouts/application (3.0ms)
+2015-11-11T08:54:04.351057+00:00 app[web.1]: Processing by ContactsController#new as HTML
+2015-11-11T08:54:04.356558+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+2015-11-11T08:54:06.437675+00:00 heroku[router]: at=info method=GET path="/contacts/new" host=desolate-headland-7257.herokuapp.com request_id=eea511e7-21b7-482b-b4bb-78dbf00fb763 fwd="41.207.252.122" dyno=web.1 connect=4ms service=15ms status=200 bytes=3257
+2015-11-11T08:54:06.428627+00:00 app[web.1]: Started GET "/contacts/new" for 41.207.252.122 at 2015-11-11 08:54:06 +0000
+2015-11-11T08:54:06.436733+00:00 app[web.1]:   Rendered contacts/new.html.erb within layouts/application (4.0ms)
+2015-11-11T08:54:06.431070+00:00 app[web.1]: Processing by ContactsController#new as HTML
+2015-11-11T08:54:06.438125+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+2015-11-11T08:54:07.375487+00:00 heroku[router]: at=info method=GET path="/about" host=desolate-headland-7257.herokuapp.com request_id=372266ee-15d8-4bfa-9e8a-48676f89d824 fwd="41.207.252.122" dyno=web.1 connect=2ms service=13ms status=200 bytes=2256
+2015-11-11T08:54:07.369444+00:00 app[web.1]: Started GET "/about" for 41.207.252.122 at 2015-11-11 08:54:07 +0000
+2015-11-11T08:54:07.374492+00:00 app[web.1]:   Rendered pages/about.html.erb within layouts/application (0.4ms)
+2015-11-11T08:54:07.372288+00:00 app[web.1]: Processing by PagesController#about as HTML
+2015-11-11T08:54:07.375615+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+2015-11-11T08:54:08.254430+00:00 app[web.1]: Started GET "/contacts/new" for 41.207.252.122 at 2015-11-11 08:54:08 +0000
+2015-11-11T08:54:08.261050+00:00 app[web.1]:   Rendered contacts/new.html.erb within layouts/application (3.3ms)
+2015-11-11T08:54:08.256563+00:00 app[web.1]: Processing by ContactsController#new as HTML
+2015-11-11T08:54:08.262384+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+2015-11-11T08:54:08.262107+00:00 heroku[router]: at=info method=GET path="/contacts/new" host=desolate-headland-7257.herokuapp.com request_id=0ea5e4ff-dcf8-4022-a47a-b3c16585318d fwd="41.207.252.122" dyno=web.1 connect=2ms service=13ms status=200 bytes=3257
+2015-11-11T08:54:13.251111+00:00 heroku[router]: at=info method=POST path="/contacts" host=desolate-headland-7257.herokuapp.com request_id=ce22c9ec-a3bf-4c9f-a547-56df9825eeb6 fwd="41.207.252.122" dyno=web.1 connect=1ms service=35ms status=500 bytes=1543
+2015-11-11T08:54:13.221555+00:00 app[web.1]: Started POST "/contacts" for 41.207.252.122 at 2015-11-11 08:54:13 +0000
+2015-11-11T08:54:13.223264+00:00 app[web.1]: Processing by ContactsController#create as HTML
+2015-11-11T08:54:13.223320+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"l+DQPXGyfiu5mnZOku3CHjPzpx2nGJ9O1Zt/emxAwbRNuFTfpL//dMdYSbl3uYk0gzvmHApd3LvDOn5NedN5Qw==", "contact"=>{"name"=>"test from heroku", "email"=>"ericgithinjimaina@gmail.com", "comments"=>""}, "button"=>""}
+2015-11-11T08:54:13.250746+00:00 app[web.1]: 
+2015-11-11T08:54:13.230832+00:00 app[web.1]:   Rendered contact_mailer/contact_email.html.erb (0.1ms)
+2015-11-11T08:54:13.250751+00:00 app[web.1]: Sent mail to ericgithinjimaina@gmail.com (19.2ms)
+2015-11-11T08:54:13.251031+00:00 app[web.1]: Completed 500 Internal Server Error in 28ms (ActiveRecord: 3.2ms)
+2015-11-11T08:54:13.252088+00:00 app[web.1]: 
+2015-11-11T08:54:13.252091+00:00 app[web.1]: Net::SMTPFatalError (550 Unauthenticated senders not allowed
+2015-11-11T08:54:13.252092+00:00 app[web.1]: ):
+2015-11-11T08:54:13.252093+00:00 app[web.1]:   app/controllers/contacts_controller.rb:18:in `create'
+2015-11-11T08:54:13.252110+00:00 app[web.1]: 
+2015-11-11T08:54:13.252111+00:00 app[web.1]: 
+2015-11-11T09:27:26.202057+00:00 heroku[web.1]: State changed from down to starting
+2015-11-11T09:27:26.200866+00:00 heroku[web.1]: Idling
+2015-11-11T09:27:26.201300+00:00 heroku[web.1]: State changed from up to down
+2015-11-11T09:27:28.005847+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 28704 -e production`
+2015-11-11T09:27:29.351136+00:00 app[web.1]: DEPRECATION WARNING: The configuration option `config.serve_static_assets` has been renamed to `config.serve_static_files` to clarify its role (it merely enables serving everything in the `public` folder and is unrelated to the asset pipeline). The `serve_static_assets` alias will be removed in Rails 5.0. Please migrate your configuration files accordingly. (called from block in <top (required)> at /app/config/environments/production.rb:23)
+2015-11-11T09:27:29.947654+00:00 app[web.1]: [2015-11-11 09:27:29] INFO  WEBrick 1.3.1
+2015-11-11T09:27:29.947662+00:00 app[web.1]: [2015-11-11 09:27:29] INFO  ruby 2.0.0 (2015-04-13) [x86_64-linux]
+2015-11-11T09:27:29.947882+00:00 app[web.1]: [2015-11-11 09:27:29] INFO  WEBrick::HTTPServer#start: pid=3 port=28704
+2015-11-11T09:27:30.280942+00:00 heroku[web.1]: State changed from starting to up
+2015-11-11T09:27:30.190266+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-11-11T09:27:31.282239+00:00 app[web.1]: [2015-11-11 09:27:31] FATAL SignalException: SIGTERM
+2015-11-11T09:27:31.282244+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2015-11-11T09:27:31.282247+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2015-11-11T09:27:31.282248+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2015-11-11T09:27:31.282249+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+2015-11-11T09:27:31.282248+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2015-11-11T09:27:31.282250+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/server.rb:286:in `start'
+2015-11-11T09:27:31.282251+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/server.rb:80:in `start'
+2015-11-11T09:27:31.282251+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+2015-11-11T09:27:31.282252+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:75:in `tap'
+2015-11-11T09:27:31.282253+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:75:in `server'
+2015-11-11T09:27:31.282254+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+2015-11-11T09:27:31.282255+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands.rb:17:in `<top (required)>'
+2015-11-11T09:27:31.282332+00:00 app[web.1]: [2015-11-11 09:27:31] INFO  going to shutdown ...
+2015-11-11T09:27:31.282256+00:00 app[web.1]: 	bin/rails:4:in `require'
+2015-11-11T09:27:31.282257+00:00 app[web.1]: 	bin/rails:4:in `<main>'
+2015-11-11T09:27:31.282400+00:00 app[web.1]: [2015-11-11 09:27:31] INFO  WEBrick::HTTPServer#start done.
+2015-11-11T09:27:31.282449+00:00 app[web.1]: Exiting
+2015-11-11T09:27:32.078410+00:00 heroku[web.1]: Process exited with status 143
+2015-11-11T10:00:30.944546+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-11-11T10:00:31.251454+00:00 app[web.1]: [2015-11-11 10:00:31] FATAL SignalException: SIGTERM
+2015-11-11T10:00:31.251460+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2015-11-11T10:00:31.251464+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2015-11-11T10:00:31.251464+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2015-11-11T10:00:31.251465+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2015-11-11T10:00:31.251466+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+2015-11-11T10:00:31.251467+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/server.rb:286:in `start'
+2015-11-11T10:00:31.251467+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/server.rb:80:in `start'
+2015-11-11T10:00:31.251503+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:75:in `tap'
+2015-11-11T10:00:31.251468+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+2015-11-11T10:00:31.251505+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:75:in `server'
+2015-11-11T10:00:31.251506+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+2015-11-11T10:00:31.251507+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands.rb:17:in `<top (required)>'
+2015-11-11T10:00:31.251508+00:00 app[web.1]: 	bin/rails:4:in `require'
+2015-11-11T10:00:31.251509+00:00 app[web.1]: 	bin/rails:4:in `<main>'
+2015-11-11T10:00:31.251510+00:00 app[web.1]: [2015-11-11 10:00:31] INFO  going to shutdown ...
+2015-11-11T10:00:31.251510+00:00 app[web.1]: [2015-11-11 10:00:31] INFO  WEBrick::HTTPServer#start done.
+2015-11-11T10:00:31.251511+00:00 app[web.1]: => Booting WEBrick
+2015-11-11T10:00:31.251513+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-11-11T10:00:31.251512+00:00 app[web.1]: => Rails 4.2.4 application starting in production on http://0.0.0.0:28704
+2015-11-11T10:00:31.251513+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-11-11T10:00:31.251515+00:00 app[web.1]: Exiting
+2015-11-11T10:00:29.296994+00:00 heroku[web.1]: Idling
+2015-11-11T10:00:29.297573+00:00 heroku[web.1]: State changed from up to down
+2015-11-11T10:00:32.113191+00:00 heroku[web.1]: Process exited with status 143
