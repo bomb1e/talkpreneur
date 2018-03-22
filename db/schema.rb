@@ -14,8 +14,8 @@
 ActiveRecord::Schema.define(version: 20151112050851) do
 
   create_table "contacts", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.string   "email",      limit: 255
+    t.string   "name"
+    t.string   "email"
     t.text     "comments"
     t.datetime "created_at"
     t.datetime "updated_at"
