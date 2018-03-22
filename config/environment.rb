@@ -2,13 +2,13 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
-Talkpreneur::Application.initialize!
+Rails.application.initialize!
 ActionMailer::Base.smtp_settings = {
 	:address => 'smtp.sendgrid.net',
 	:port => '587',
 	:authentication => :plain,
-	:user_name => ENV['bomb1e'],
-	:password => ENV['We5.some'],
+	:user_name => ENV['app41568071@heroku.com'],
+	:password => ENV['njlgyomc3896'],
 	:domain => 'heroku.com',
 	:enable_startstls_auto => true
 }
